@@ -229,3 +229,52 @@ input:focus {
     }
 
 }
+
+.footer{
+  min-height: auto;
+  padding-top: 0;
+  background: rgb(245,245,245);
+}
+
+
+
+.footer .credit{
+  padding: 1rem 0 0 0;
+  text-align: center;
+  font-size: 1.0rem;
+  font-family: 'Nunito',sans-serif;
+  font-weight: 600;
+  color: #000000;
+  border-top: .1rem solid #fff3;
+}
+.footer .credit a{
+  color: #00008B;
+}
+.footer .fa{
+    color: #E90606;
+    margin: 0 .3rem;
+    font-size: 1.0rem;
+    animation: pound .35s infinite alternate;
+}
+@-webkit-keyframes pound{
+  to{
+    transform: scale(1.1);
+  }
+}
+@keyframes pound{
+  to{
+    transform: scale(1.1);
+}
+}
+@media(max-width:450px){
+  .footer .box-container .box{
+    margin: 1.5rem;
+  }
+  .footer .box-container .box p{
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a{
+    padding: 1.2rem;
+  }
+}
+
